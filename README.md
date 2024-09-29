@@ -1,12 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# plmphd
+# Scientific Report 2024 paper
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of plmphd is to …
+The goal of this package is to apply the People-like-me (PLM) methods with different setups. 
+The SR2024 paper is mainly focused on the basic setups for PLM with sinlge anchor time matching methods.
+The package it contains further investigations on multiple time matching and flexible matching donor selection methods.
 
 ## Installation
 
@@ -24,114 +26,6 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(plmphd)
-#> Loading required package: brokenstick
-#> Loading required package: optimx
-#> Loading required package: broom.mixed
-#> Loading required package: dplyr
-#> 
-#> Attaching package: 'dplyr'
-#> The following objects are masked from 'package:stats':
-#> 
-#>     filter, lag
-#> The following objects are masked from 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
-#> Loading required package: gamlss
-#> Loading required package: splines
-#> Loading required package: gamlss.data
-#> 
-#> Attaching package: 'gamlss.data'
-#> The following object is masked from 'package:datasets':
-#> 
-#>     sleep
-#> Loading required package: gamlss.dist
-#> Loading required package: nlme
-#> 
-#> Attaching package: 'nlme'
-#> The following object is masked from 'package:dplyr':
-#> 
-#>     collapse
-#> The following object is masked from 'package:optimx':
-#> 
-#>     coef<-
-#> Loading required package: parallel
-#>  **********   GAMLSS Version 5.4-22  **********
-#> For more on GAMLSS look at https://www.gamlss.com/
-#> Type gamlssNews() to see new features/changes/bug fixes.
-#> Loading required package: here
-#> here() starts at /Users/goodgolden5/Desktop/plmphd
-#> Loading required package: lme4
-#> Loading required package: Matrix
-#> 
-#> Attaching package: 'lme4'
-#> The following object is masked from 'package:gamlss':
-#> 
-#>     refit
-#> The following object is masked from 'package:nlme':
-#> 
-#>     lmList
-#> Loading required package: MASS
-#> 
-#> Attaching package: 'MASS'
-#> The following object is masked from 'package:dplyr':
-#> 
-#>     select
-#> Loading required package: matrixcalc
-#> Loading required package: plotly
-#> Loading required package: ggplot2
-#> 
-#> Attaching package: 'plotly'
-#> The following object is masked from 'package:ggplot2':
-#> 
-#>     last_plot
-#> The following object is masked from 'package:MASS':
-#> 
-#>     select
-#> The following object is masked from 'package:stats':
-#> 
-#>     filter
-#> The following object is masked from 'package:graphics':
-#> 
-#>     layout
-#> Loading required package: shiny
-#> Loading required package: tibble
-#> Loading required package: tidyr
-#> 
-#> Attaching package: 'tidyr'
-#> The following objects are masked from 'package:Matrix':
-#> 
-#>     expand, pack, unpack
-#> Loading required package: tidyverse
-#> ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-#> ✔ forcats   1.0.0     ✔ readr     2.1.5
-#> ✔ lubridate 1.9.3     ✔ stringr   1.5.1
-#> ✔ purrr     1.0.2     
-#> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-#> ✖ nlme::collapse() masks dplyr::collapse()
-#> ✖ tidyr::expand()  masks Matrix::expand()
-#> ✖ plotly::filter() masks dplyr::filter(), stats::filter()
-#> ✖ dplyr::lag()     masks stats::lag()
-#> ✖ tidyr::pack()    masks Matrix::pack()
-#> ✖ plotly::select() masks MASS::select(), dplyr::select()
-#> ✖ tidyr::unpack()  masks Matrix::unpack()
-#> ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-#> 
-#>  Welcome to my package; this is a package
-#>                         developed for Randy Jin's MS thesis
-#> 
-#> 
-#> Attaching package: 'plmphd'
-#> 
-#> 
-#> The following objects are masked from 'package:brokenstick':
-#> 
-#>     brokenstick, control_kr, set_control
-#> 
-#> 
-#> The following object is masked from 'package:base':
-#> 
-#>     match
-## basic example code
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
